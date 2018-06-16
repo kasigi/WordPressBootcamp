@@ -1,0 +1,13 @@
+WordPress wp-config.php Security Checklist
+
+* Table Prefixes have been set to something other than wp_ OR the site's name/initials
+* Salts have been installed (see https://api.wordpress.org/secret-key/1.1/salt/ for a random salt generator)
+* File Edit has been disalbed with:
+	define("DISALLOW_FILE_EDIT", TRUE);
+
+Additional Checks When Setting Up WordPress on an Internet-connected Server
+
+* The database user/password is NOT 'root' or the super-administrator
+* SSL is required for the admin via these two lines:
+	define('FORCE_SSL_LOGIN', true);
+	define('FORCE_SSL_ADMIN', true);

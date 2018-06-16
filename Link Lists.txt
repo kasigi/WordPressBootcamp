@@ -1,0 +1,16 @@
+WordPress Bootcamp Resource List:
+
+WordPress
+
+
+Themes
+https://wordpress.org/themes/author/automattic/
+https://themeforest.net/category/wordpress
+
+
+Plugins
+https://wordpress.org/plugins/
+
+
+Mamp
+https://www.mamp.info/en/
